@@ -1,0 +1,227 @@
+*{
+    box-sizing: border-box;
+}
+html, body{
+    margin: 0;
+    padding: 0;
+}
+#logo{
+    width: 50px;
+}
+.educ{
+    font-family: myFont;
+}
+header{
+    padding: 30px 50px;
+    background-color: whitesmoke;
+}
+header span{
+    font-size: 26pt;
+}
+.intro{
+    float: left;
+    margin-right: 300px;
+}
+.nav ul{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    padding-top: 20px;
+}
+.nav ul li{
+font-size: 16pt;
+float: left;
+margin-right: 30px;
+font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.nav ul li a{
+    text-decoration: none;
+    color: black; 
+}
+.nav ul li a:hover{
+    border-bottom: 2px solid blue;
+    color:red;
+    font-size: 18pt;
+}
+.nav button{
+    background-color: blue;
+    border: 0;
+    outline: 0;
+    border-radius: 5px;
+    padding: 5px;
+    font-size: 14pt;
+    color: white;
+    cursor: pointer;
+    box-shadow: 0 0 3px  grey;
+}
+.nav button:hover{
+    background-color: green;
+    box-shadow: 3px 3px 3px black;
+}
+@font-face{
+    font-family: myFont;
+    src: url(fibre-font.otf);
+}
+.section1{
+    background-image: linear-gradient(rgb(9, 9, 100), black 70%);
+    padding-top: 200px;
+    padding-bottom: 200px;
+    color: white;
+    text-align: center;
+}
+.section1 h2{
+    font-size: 24pt;
+}
+.section1 p{
+    font-size: 12pt;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.section1 a{
+    text-decoration: none;
+    color: grey
+}
+.section1 a:hover{
+    border-bottom: 2px solid white;
+}
+.section2{
+    background-color: whitesmoke;
+    padding: 50px;
+}
+.flex1, .flex2{
+   display: flex;
+   margin-bottom: 20px;
+}
+
+.flex1 div, .flex2 div{
+    margin-right: 80px;
+}
+
+.picture{
+    width: 300px;
+    height: 400px;
+    background-color: grey;    
+}
+.grid{
+    text-align: center;
+    width: 300px;
+    cursor: pointer;
+}
+.grid:hover{
+    box-shadow: 8px 10px 5px black;
+}
+.grid p{
+    font-size: 14pt;
+}
+.grid h4{
+    font-size: 16pt;
+    margin-bottom: 0;
+}
+.section3{
+    background-color: rgb(27, 177, 119);
+    padding: 50px;
+    color: white;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: center;
+}
+.section3 p:first-child{
+    font-size: 20pt;
+    margin-bottom: 0;
+}
+#second{
+    font-size: 14pt;
+    margin-top: 5px;
+}
+.circles{
+    display: flex;
+    margin: 0 auto;
+    max-width: 460px;
+    margin-bottom: 30px;
+
+}
+.circles div{
+    border: 2px solid white;
+    padding: 10px;
+    margin-right: 20px;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+}
+.circles div:last-child{
+    margin-right: 0;
+}
+.t1{
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 20pt;
+}
+.t2{
+    margin-top: 0;
+}
+#offer{
+    font-weight: bold;
+    font-size: 14pt;
+}
+.section3 button{
+    cursor: pointer;
+    border: 0;
+    background-color: transparent;
+    color: white;
+    font-size: 11pt;
+    border: 2px solid white;
+    padding: 20px;
+}
+.section3 button:hover{
+    box-shadow: 10px 10px 5px black;
+}
+footer{
+    background-color: black;
+    color: white;
+    padding: 30px;
+}
+.footsection{
+    display: flex;
+}
+.footer div{
+    display: flex;
+}
+.footnav{
+    display: flex;
+}
+.footnav div{
+    margin-right: 70px;
+}
+.footnav div ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    font-size: 14pt;
+}
+.about{
+    width: 500px;
+    margin-right: 150px;
+    font-size: 14pt;
+}
+.footnav div ul li{
+    margin-bottom: 5px;
+}
+.footnav div a{
+    color: grey;
+    text-decoration: none;
+}
+.footnav div a:hover{
+    border-bottom: 2px solid white;
+    color: white;
+}
+.footnote{
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.footnote a{
+    color: grey;
+    text-decoration: none;
+}
+.footnote a:hover{
+    color: white;
+    border-bottom: 2px solid white;
+}
